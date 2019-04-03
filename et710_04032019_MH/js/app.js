@@ -1,3 +1,5 @@
+$(document).foundation()
+
 var app = angular.module('customersApp',['ngRoute']);
 app.config(function($routeProvider) {
   $routeProvider.when('/',
